@@ -166,8 +166,12 @@ h1 {
 
 .hero-button {
   border-radius: 2em;
-  padding: 1em;
-  font-weight: 800;
+  padding: 1em 2.5em;
+  font-weight: 500;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  color: #ffffff;
+  border: none;
+  margin: 1em 0;
 }
 
 /***** Courses *****/
@@ -178,6 +182,32 @@ h1 {
   align-items: center;
   flex-flow: row wrap;
 }
+
+.courses-heading {
+  background: linear-gradient(#FF6F48, #F02AA6);
+  color: #ffffff;
+  border-radius: 0.75em;
+  padding: 1.5em 1em;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.course-card { 
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #ffffff;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  padding: 0 1.75rem;
+}
+
+.course-card img {
+  padding-right: 100%;
+  
+}
+
 
 /***** Footer *****/
 footer {
