@@ -15,7 +15,6 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -35,38 +34,18 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I have only used pseudo elements once before this project. Typing "pseudo" alone into a search is not spefic enough. I needed to use pseudo elements specifically and it took me a little bit to realize this. I needed a ::before to get course icons to sit just halfway above the top of the card.
+[MDN on ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
 
 ### Continued development
 

@@ -87,21 +87,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /**** Body *****/
 body {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-flow: row wrap; */
   background-color: #F2F2F2;
   font-family: 'Plus Jakarta Sans', sans-serif;
-
 }
 
 /**** Header *****/
@@ -109,9 +104,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* flex-flow: row nowrap; */
-  /* width: 100%; */
-  /* margin: 1em 1em; */
   padding: 1.5rem;
 }
 
@@ -119,23 +111,20 @@ header {
   color: #ffffff;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
   background-color: #13183F;
   border-radius: 2em;
-  padding: 1em;
+  padding: 1rem;
+  width: 50%;
 }
 
-.header-logo {
-  /* height: 30px; */
-  padding: 3em;
-}
+.header-logo {}
 
 
 /***** Main *****/
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
   width: 100%;
 }
@@ -145,18 +134,13 @@ main {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
   width: 100%;
 }
 
 .content-wrapper {
   width: 100%;
-  margin: 1em;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-flow: row wrap;
+  margin: 1rem;
 }
 
 h1 {
@@ -172,59 +156,76 @@ h1 {
 
 .hero-button {
   border-radius: 2em;
-  padding: 1em 2.5em;
+  padding: 1rem 2.5rem;
   font-weight: 500;
   background: linear-gradient(#FF6F48, #F02AA6);
   color: #ffffff;
   border: none;
-  margin: 1em 0;
+  margin: 1rem 0;
 }
 
 /***** Courses *****/
 .courses {
   width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
 }
 
-.courses-heading {
+.courses-heading-background {
   background: linear-gradient(#FF6F48, #F02AA6);
   color: #ffffff;
   border-radius: 0.75em;
-  padding: 1.5em 1em;
+  padding: 3rem 1rem;
   text-align: left;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.course-card { 
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-flow: row wrap;
+.courses-heading {
+  /* width: 80%; */
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.course-card {
   background-color: #ffffff;
-  margin: 0.5em;
+  margin: 0.5rem 0;
   border-radius: 0.5em;
   padding: 0 1.75rem;
 }
 
-.course-card img {
-  padding-right: 100%;
-  
+.animation::before {
+  content: url("../assets/icon-animation.svg");
 }
 
+.design::before {
+  content: url("../assets/icon-design.svg");
+}
+
+.photography::before {
+  content: url("../assets/icon-photography.svg");
+}
+
+.crypto::before {
+  content: url("../assets/icon-crypto.svg");
+}
+
+.business::before {
+  content: url("../assets/icon-crypto.svg");
+}
+
+.course-card img {
+  padding-right: 100%;
+}
 
 /***** Footer *****/
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
   background-color: #13183F;
   color: #ffffff;
   width: 100%;
-  padding: 1.5em;
+  padding: 1.5rem;
 }
 
 
@@ -232,16 +233,16 @@ footer {
    Media Queries
    ========================================================================== */
 
-   /* @media only screen and (min-width: 35em) {
+/* @media only screen and (min-width: 35em) {
     Style adjustments for viewports that meet the condition
   } */
-  
-  @media print,
-    (-webkit-min-device-pixel-ratio: 1.25),
-    (min-resolution: 1.25dppx),
-    (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-  }
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
 
 /* ==========================================================================
    Helper classes
@@ -333,6 +334,7 @@ footer {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -400,4 +402,3 @@ footer {
     page-break-after: avoid;
   }
 }
-
