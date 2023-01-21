@@ -95,17 +95,17 @@ textarea {
 
 /**** Body *****/
 body {
-  background-color: #F2F2F2;
+  background-color: #ffffff;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /**** Header *****/
 header {
+  background-color: #ffffff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 1rem;
-  /* padding: 1.5rem; */
 }
 
 .header-button {
@@ -122,9 +122,11 @@ header {
 
 /***** Main *****/
 main {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding-bottom: 2rem;
   width: 100%;
 }
 
@@ -271,7 +273,6 @@ footer {
   color: #ffffff;
   width: 100%;
   padding: 1.5rem;
-  margin-top: 2rem;
 }
 
 .footer-button {
@@ -290,6 +291,38 @@ footer {
 /* @media only screen and (min-width: 35em) {
     Style adjustments for viewports that meet the condition
   } */
+
+@media only screen and (min-width: 48em) {
+  .hero-area {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+  }
+
+  .content-wrapper {
+    width: 50%;
+  }
+
+  .hero-image {
+    width: 50%;
+  }
+
+
+  .courses {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+  }
+
+  .course-card {
+    width: 45%;
+  }
+
+  .courses-heading-background {
+    width: 45%;
+    margin: 2.5rem 0;
+  }
+}
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
