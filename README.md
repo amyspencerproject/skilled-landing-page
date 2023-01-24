@@ -40,6 +40,8 @@ Users should be able to:
 I have only used pseudo elements once before this project. Typing "pseudo" alone into a search is not spefic enough. I needed to use pseudo elements specifically and it took me a little bit to realize this. I needed a ::before to get course icons to sit just halfway above the top of the card.
 [MDN on ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
 
+Used the ```<picture>``` element to make the hero image responsive. This challenge has the image spilling off the page for tablet screen sizes and larger. I stuggled to get this accomplished. Was not sure what the best practice should be to get this effect. I can do this quickly by putting a height of 500px on the image container. Instead I tried to use transform: translateX(), position: absolute, and postion: relative in combination with object-fit: and overflow:. Initially submitted this challenge knowing that I had not optimized the hero image.
+
 
 ### Continued development
 
