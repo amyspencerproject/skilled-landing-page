@@ -45,7 +45,7 @@ Used the ```<picture>``` element to make the hero image responsive. This challen
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Still not fully understanding the use of position, object-fit, and overflow. Especially with making a seemless responsive site. Stipulating the height is a the easy way out and I am trying hard to develop the skills to not do this.
 
 ## Author
 

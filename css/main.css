@@ -357,6 +357,11 @@ footer {
     width: 45%;
     margin: 2.5rem 0;
   }
+
+  .courses-heading {
+    font-size: 2rem;
+    margin: 2rem 1rem;
+  }
 }
 
 /* ----------- Desktop Screenlarger than 1200px wide ----------- */
