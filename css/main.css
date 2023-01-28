@@ -120,6 +120,10 @@ header {
   border: none;
 }
 
+.header-button:hover {
+  background: #666CA3;
+}
+
 /***** Main *****/
 main {
   background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
@@ -266,13 +270,16 @@ a {
 
 /***** Footer *****/
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #13183F;
   color: #ffffff;
   width: 100%;
   padding: 1.5rem;
+}
+
+.contain-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-button {
@@ -392,10 +399,13 @@ footer {
   }
 
   .contain-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 90%;
+  }
+
+  .footer-button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)), linear-gradient(180deg,
+        #4851FF -54.32%, #F02AA6 100%);
   }
 }
 
