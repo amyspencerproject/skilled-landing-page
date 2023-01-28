@@ -171,6 +171,12 @@ h1 {
   margin: 1rem 0;
 }
 
+.hero-button:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)), linear-gradient(180deg,
+      #4851FF -54.32%, #F02AA6 100%);
+}
+
 /***** Courses *****/
 .courses {
   width: 90%;
@@ -216,6 +222,10 @@ a {
   color: #F74780;
   text-decoration: none;
   font-size: 1.25rem;
+}
+
+.course-card a:hover {
+  color: #FFA7C3;
 }
 
 .course-card p {
@@ -288,6 +298,12 @@ footer {
   color: #ffffff;
   padding: 1rem 1.5rem;
   border: none;
+}
+
+.footer-button:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)), linear-gradient(180deg,
+      #4851FF -54.32%, #F02AA6 100%);
 }
 
 
@@ -384,6 +400,9 @@ footer {
     width: 80%;
   }
 
+  .courses {
+    width: 80%;
+  }
 
   .courses-heading-background {
     width: 30%;
@@ -395,17 +414,12 @@ footer {
   }
 
   footer {
+    display: flex;
     justify-content: center;
   }
 
   .contain-footer {
-    width: 90%;
-  }
-
-  .footer-button:hover {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)), linear-gradient(180deg,
-        #4851FF -54.32%, #F02AA6 100%);
+    width: 80%;
   }
 }
 
