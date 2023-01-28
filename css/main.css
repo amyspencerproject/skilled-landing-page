@@ -339,13 +339,13 @@ footer {
     /* flex-grow: 1; */
     /* justify-content: space-evenly; */
     /* align-items: center; */
-    /* flex-flow: row nowrap; */
+    flex-flow: row nowrap;
     width: 90%;
-    margin-bottom: 14rem;
+    margin-bottom: 12rem;
   }
 
   .content-wrapper {
-    margin: 0;
+    margin-top: 4rem;
     width: 50%;
   }
 
@@ -408,6 +408,28 @@ footer {
 
   .header-button {
     width: 15%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-area p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .content-wrapper {
+    margin-top: 4rem;
+    width: 50%;
+    /* z-index: 10; */
+  }
+
+  .contain-hero-image {
+    width: 50%;
+    position: relative;
+    top: 5%;
+    right: 0%;
   }
 
   .courses {
