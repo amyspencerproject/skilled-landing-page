@@ -97,11 +97,12 @@ textarea {
 body {
   background-color: #ffffff;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 /**** Header *****/
 header {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -132,7 +133,7 @@ main {
   flex-flow: row wrap;
   padding-bottom: 2rem;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
